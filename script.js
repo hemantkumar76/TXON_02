@@ -22,7 +22,7 @@ function clearScreen() {
     document.getElementById("result").value = "";
 }
 
-// Add event listeners to the buttons
+//addd karega listeners ko button me 
 document.getElementById("clear").addEventListener("click", clearScreen);
 document.getElementById("open-parenthesis").addEventListener("click", function () {
     addToExpression("(");
